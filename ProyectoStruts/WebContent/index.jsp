@@ -17,7 +17,13 @@
     	<s:textfield name="edad" label="Edad"/>
     	<s:submit/>
 	</s:form>
-	hoalaaa
+	
+
+	Recuperar un empleado:
+	<s:form action="obtenerEmpleado" method="post" enctype="multipart/form-data">
+    	<s:textfield name="id" label="ID del Empleado"/>
+    	<s:submit/>
+	</s:form>
 	
 </body>
 </html>

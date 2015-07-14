@@ -10,10 +10,6 @@
 <body>
 	Empleado.jsp
 	
-	Recuperar Empleado por ID:
-	<s:form action="obtenerEmpleado" method="post" enctype="multipart/form-data">
-    	<s:textfield name="id" label="ID del Empleado"/>
-    	<s:submit/>
-	</s:form>
+	<s:property value="empleado.firstName"/><br>
 </body>
 </html>
