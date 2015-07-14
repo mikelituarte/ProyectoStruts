@@ -17,6 +17,7 @@
     	<s:textfield name="edad" label="Edad"/>
     	<s:submit/>
 	</s:form>
+	hoalaaa
 	
 </body>
 </html>
