@@ -36,7 +36,11 @@
 		</action> -->
 		
 		<action name="obtenerEmpleado" class="Empleado.AccionRecuperarEmpleado" method="execute">
-			<result name="success">/persona.jsp</result>
+			<result name="success">/recuperarEmpleado/empleado.jsp</result>
+		</action> 
+		
+		<action name="coche" class="coche.AccionCoche" method="execute">
+			<result name="success">/coche/coche.jsp</result>
 		</action> 
 		
 	</package> 

@@ -25,5 +25,17 @@
     	<s:submit/>
 	</s:form>
 	
+	<s:form action="coche" method="post" enctype="multipart/form-data">
+    	<s:textfield name="coche" label="Marca"/>
+    	<s:textfield name="coche" label="Modelo"/>
+    	<s:textfield name="coche" label="Matricula"/>
+    	<s:textfield name="coche" label="CV"/>
+    	<s:textfield name="coche" label="CC"/>
+    	<s:textfield name="coche" label="Fecha Matriculacion (dd/mm/yyyy)"/>
+    	<s:submit/>
+	</s:form>
+	
+	
+	
 </body>
 </html>
