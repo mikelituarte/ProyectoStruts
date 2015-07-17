@@ -34,8 +34,8 @@
     	<s:textfield name="coche" label="Fecha Matriculacion (dd/mm/yyyy)"/>
     	<s:submit/>
 	</s:form>
+	<s:if test="hasActionMessages()"><s:actionmessage/></s:if>
 	
-	
-	
+	<a href="http://localhost:8090/ProyectoStruts/subirFichero/upfile.jsp">Aqui</a>
 </body>
 </html>
